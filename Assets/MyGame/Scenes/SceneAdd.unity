@@ -298,7 +298,7 @@ GameObject:
   - component: {fileID: 1074478267}
   - component: {fileID: 1074478266}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Button_rewind
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -566,7 +566,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'New Round '
+  m_Text: Back to start
 --- !u!222 &1140622228
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -587,7 +587,7 @@ GameObject:
   - component: {fileID: 1334947577}
   - component: {fileID: 1334947576}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Plus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -609,7 +609,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11.4, y: -6}
+  m_AnchoredPosition: {x: -67, y: -6.0107}
   m_SizeDelta: {x: 57.607613, y: 43.92731}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1334947576
@@ -667,7 +667,7 @@ GameObject:
   - component: {fileID: 1489694533}
   - component: {fileID: 1489694532}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -689,7 +689,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 45.566, y: 77}
+  m_AnchoredPosition: {x: 19.011, y: 77}
   m_SizeDelta: {x: 198.02234, y: 56.684143}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1489694532
@@ -718,7 +718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6784314, g: 0.08627451, b: 0.6666667, a: 1}
+  m_Color: {r: 0.4672481, g: 0.7924528, b: 0.66355246, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -760,7 +760,7 @@ GameObject:
   - component: {fileID: 1548417047}
   - component: {fileID: 1548417046}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: Value1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -784,7 +784,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -83.89994, y: 0}
+  m_AnchoredPosition: {x: -141, y: -0.00026131}
   m_SizeDelta: {x: 60.910004, y: 31.90604}
   m_Pivot: {x: 0.5000002, y: 0.5}
 --- !u!114 &1548417046
@@ -1084,7 +1084,7 @@ GameObject:
   - component: {fileID: 1813865438}
   - component: {fileID: 1813865437}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Equals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1106,7 +1106,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 132, y: -10.378}
+  m_AnchoredPosition: {x: 74.078, y: -10.378}
   m_SizeDelta: {x: 87.8891, y: 52.6615}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1813865437
@@ -1164,7 +1164,7 @@ GameObject:
   - component: {fileID: 1838836836}
   - component: {fileID: 1838836835}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: Value2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1188,7 +1188,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 40.97, y: -0.000019073}
+  m_AnchoredPosition: {x: -20, y: -0.0000076294}
   m_SizeDelta: {x: 78.06015, y: 31.906021}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1838836835
@@ -1306,7 +1306,7 @@ GameObject:
   - component: {fileID: 1889812475}
   - component: {fileID: 1889812474}
   m_Layer: 5
-  m_Name: Button1
+  m_Name: Button_result
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1329,7 +1329,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 190.4, y: 0.953}
+  m_AnchoredPosition: {x: 143, y: 0.95302}
   m_SizeDelta: {x: 144.75537, y: 29.99997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1889812474
@@ -1590,7 +1590,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Result
 --- !u!222 &2003229533
 CanvasRenderer:
   m_ObjectHideFlags: 0

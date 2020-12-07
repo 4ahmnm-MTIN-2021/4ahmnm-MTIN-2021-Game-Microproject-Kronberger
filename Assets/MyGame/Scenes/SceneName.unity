@@ -523,7 +523,7 @@ GameObject:
   - component: {fileID: 1174651848}
   - component: {fileID: 1174651847}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Text_enter_name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -545,7 +545,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20, y: 103}
+  m_AnchoredPosition: {x: 6, y: 91}
   m_SizeDelta: {x: 271.67957, y: 61.417038}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1174651847
@@ -561,7 +561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6784314, g: 0.08627451, b: 0.6666667, a: 1}
+  m_Color: {r: 0.31746176, g: 0.7735849, b: 0.62867016, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -705,7 +705,7 @@ GameObject:
   - component: {fileID: 1590284431}
   - component: {fileID: 1590284430}
   m_Layer: 5
-  m_Name: Next
+  m_Name: Button_next
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -837,7 +837,7 @@ GameObject:
   - component: {fileID: 1633590532}
   - component: {fileID: 1633590531}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Button_back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -969,7 +969,7 @@ GameObject:
   - component: {fileID: 1653931997}
   - component: {fileID: 1653931996}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: Input_name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

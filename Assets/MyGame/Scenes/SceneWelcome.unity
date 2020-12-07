@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 74843970}
   - component: {fileID: 74843969}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Welcome_text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 46}
   m_SizeDelta: {x: 275.16962, y: 49.199295}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &74843969
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6792453, g: 0.085866846, b: 0.66808313, a: 1}
+  m_Color: {r: 0.08627452, g: 0.6784314, b: 0.49048534, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -202,6 +202,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 74843967}
   m_CullTransparentMesh: 0
+--- !u!1 &107451270 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5073463744150093794, guid: 25ff5409c54c8aa4fb2a37dd962eba31, type: 3}
+  m_PrefabInstance: {fileID: 6032260806898832769}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &251293742
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,7 +469,7 @@ GameObject:
   - component: {fileID: 1875553958}
   - component: {fileID: 1875553957}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Button_next
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -487,7 +492,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -58}
+  m_AnchoredPosition: {x: 0, y: -36}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1875553957
@@ -713,6 +718,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2340818122567055084, guid: 25ff5409c54c8aa4fb2a37dd962eba31, type: 3}
+      propertyPath: buttonPressText
+      value: 
+      objectReference: {fileID: 107451270}
     - target: {fileID: 5073463744150093794, guid: 25ff5409c54c8aa4fb2a37dd962eba31, type: 3}
       propertyPath: m_Name
       value: Sceneloader
@@ -724,7 +733,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2340818122567055084, guid: 25ff5409c54c8aa4fb2a37dd962eba31, type: 3}
   m_PrefabInstance: {fileID: 6032260806898832769}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 107451270}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 11d81ba04b7e93c43b22639cb9701fe2, type: 3}

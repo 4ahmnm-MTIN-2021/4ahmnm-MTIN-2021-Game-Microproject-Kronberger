@@ -13,11 +13,11 @@ public class Sceneloader : MonoBehaviour
     public PlayerName playerName;
     public GameObject buttonPressText;
 
-    //gets called in the onclick function of the Button
+    //reiggered by onclick function of the Button
     public void addButtenPress()
     {
         numberPress++; //add 1 to the counting value
-        buttonPressText.GetComponent<Text>().text = numberPress.ToString(); //Display the ammount in textfield
+        buttonPressText.GetComponent<Text>().text = numberPress.ToString(); //Display the amount in textfield
         if (numberPress == 5) //check if button is pressed 5 times
         {
             LoadNextScene("SceneAdd");
@@ -29,7 +29,7 @@ public class Sceneloader : MonoBehaviour
     {
         SceneManager.LoadScene(name);
     }
-    public void UpdatePlayerName() //safe playername to scriptable game object
+    public void UpdatePlayerName() //save playername to scriptable game object
     {
         playerName.runtimevalue = nameInput.text;
     }
